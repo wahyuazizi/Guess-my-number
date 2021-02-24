@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Guess my number!</h1>
+      <p class="range">between 1-20</p>
+    </div>
+    <div class="score">
+      <div class="life">
+        <p>Life:</p>
+        <p class="life-value"></p>
+      </div>
+
+      <div class="highscore">
+        <p>highscore:</p>
+        <p class="highscore-value">0</p>
+      </div>
+    </div>
+
+    <div class="secret">
+      <h4 class="secret-number">
+        ?
+        <span class="glow"></span>
+        <span class="shadow"></span>
+      </h4>
+      <div class="decor decor1"></div>
+      <div class="decor decor2"></div>
+    </div>
+
+    <div class="guess">
+      <p class="message">Start guessing...</p>
+
+      <div class="input">
+        <!-- <div class="ctrl">
+          <button class="ctrl-btn ctrl-btn-decrement">-</button>
+        </div> -->
+        <input class="guess-input" type="number" value="0" min="0" max="20" />
+        <!-- <div class="ctrl-counter-num">0</div> -->
+        <!-- <div class="ctrl">
+          <button class="ctrl-btn ctrl-btn-increment">+</button>
+        </div> -->
+      </div>
+      <button class="check-btn">Check</button>
+      <button class="again">Play again</button>
+    </div>
+
+    <p class="copyright">©Wahyuazizi_</p>
+    <script src="index.js"></script>
+  </body>
+</html>
