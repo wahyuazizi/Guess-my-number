@@ -8,6 +8,11 @@
   --copyright-color: #ababc3;
 }
 
+@font-face {
+  font-family: RetroGaming;
+  src: url(./font/Retro\ Gaming.ttf);
+}
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -27,7 +32,7 @@ body,
 
 body {
   justify-content: space-evenly;
-  font-family: "Retro Gaming";
+  font-family: RetroGaming;
   font-size: 1.125rem;
   background-color: var(--background-color);
   height: 100vh;
