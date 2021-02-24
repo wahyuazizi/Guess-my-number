@@ -49,6 +49,9 @@ document.querySelector('.check-btn').addEventListener('click', function () {
         if (life > highscore) {
             highscore = life;
             $('.highscore-value', highscore);
+        } else {
+            highscore = life;
+            $('.highscore-value', highscore);
         }
     }
 })
@@ -64,17 +67,5 @@ document.querySelector('.again').addEventListener('click', function () {
     $('.message', 'Start guessing...');
 
     document.querySelector('.guess-input').value = '';
+    $('.secret-number', '?');
 })
-
-// document.querySelector('.ctrl-btn-decrement').addEventListener('click', function () {
-
-//     const ctrl = function () {
-//         let guess = Number(document.querySelector('.guess-input').value);
-
-//         if (guess) {
-//             $('.guess-input', guess);
-//         }
-//     }
-
-
-// })
