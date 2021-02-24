@@ -39,6 +39,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   color: var(--dark-color);
   padding-bottom: 1em;
 }
@@ -57,7 +58,6 @@ h1 {
 .life,
 .highscore {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -67,6 +67,11 @@ div p {
 
 div p:last-child {
   margin-bottom: 0;
+}
+
+.highscore-value,
+.life-value {
+  margin-left: 1em;
 }
 /* 
 .life-icon,
@@ -233,6 +238,5 @@ input.guess-input {
 .copyright {
   font-size: 0.725rem;
   color: var(--copyright-color);
-  position: fixed;
   bottom: 0;
 }
